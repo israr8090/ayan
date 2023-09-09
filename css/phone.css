@@ -10,6 +10,22 @@
 }
 
 /* home section------------- */
+#home::before {
+    content: "";
+    display: flex;
+    position: absolute;
+    background: url('../image/ayanbirth2.jpeg') no-repeat center center/cover;
+    margin-top: 0px;
+    height: 1160px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.89; */
+}
+
+/* Home Section */
+
 
 #home {
     display: flex;
@@ -32,6 +48,7 @@
     padding: 10px 21px;
     margin: 37px -7px;
     font-size: 25px;
+    margin-top: -6px;
     /* border: 5px solid white; */
 }
 
@@ -55,6 +72,15 @@
 
 #Gallery{
    flex-direction: column;
+   background-color: rgb(203, 243, 243);
+}
+.h-head {
+    font-family: 'Bree Serif', serif;
+    font-size: 45px;
+    padding: 12px;
+    /* border: 3px solid green; */
+    margin: 66px 12px;
+    margin-bottom: -8px;
 }
 
 #Gallery .box {
@@ -66,4 +92,9 @@
 #Gallery .box img{
     height: 340px;
     width: 330px;
+}
+#invitation-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -34px 2px;
 }
